@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF85C87C1F2990FA00561413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85C87B1F2990FA00561413 /* main.m */; };
+		EF85C87F1F2990FA00561413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85C87E1F2990FA00561413 /* AppDelegate.m */; };
+		EF85C8821F2990FA00561413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85C8811F2990FA00561413 /* ViewController.m */; };
+		EF85C8851F2990FA00561413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF85C8831F2990FA00561413 /* Main.storyboard */; };
+		EF85C8871F2990FA00561413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF85C8861F2990FA00561413 /* Assets.xcassets */; };
+		EF85C88A1F2990FA00561413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF85C8881F2990FA00561413 /* LaunchScreen.storyboard */; };
+		EF85C8951F2990FA00561413 /* DOHCompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85C8941F2990FA00561413 /* DOHCompassTests.m */; };
+		EF85C8A01F2990FA00561413 /* DOHCompassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85C89F1F2990FA00561413 /* DOHCompassUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF85C8911F2990FA00561413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF85C86F1F2990FA00561413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF85C8761F2990FA00561413;
+			remoteInfo = DOHCompass;
+		};
+		EF85C89C1F2990FA00561413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF85C86F1F2990FA00561413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF85C8761F2990FA00561413;
+			remoteInfo = DOHCompass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF85C8771F2990FA00561413 /* DOHCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOHCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85C87B1F2990FA00561413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF85C87D1F2990FA00561413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF85C87E1F2990FA00561413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF85C8801F2990FA00561413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF85C8811F2990FA00561413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF85C8841F2990FA00561413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF85C8861F2990FA00561413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF85C8891F2990FA00561413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF85C88B1F2990FA00561413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF85C8901F2990FA00561413 /* DOHCompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOHCompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85C8941F2990FA00561413 /* DOHCompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHCompassTests.m; sourceTree = "<group>"; };
+		EF85C8961F2990FA00561413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF85C89B1F2990FA00561413 /* DOHCompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOHCompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85C89F1F2990FA00561413 /* DOHCompassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DOHCompassUITests.m; sourceTree = "<group>"; };
+		EF85C8A11F2990FA00561413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF85C8741F2990FA00561413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C88D1F2990FA00561413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C8981F2990FA00561413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF85C86E1F2990FA00561413 = {
+			isa = PBXGroup;
+			children = (
+				EF85C8791F2990FA00561413 /* DOHCompass */,
+				EF85C8931F2990FA00561413 /* DOHCompassTests */,
+				EF85C89E1F2990FA00561413 /* DOHCompassUITests */,
+				EF85C8781F2990FA00561413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF85C8781F2990FA00561413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF85C8771F2990FA00561413 /* DOHCompass.app */,
+				EF85C8901F2990FA00561413 /* DOHCompassTests.xctest */,
+				EF85C89B1F2990FA00561413 /* DOHCompassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF85C8791F2990FA00561413 /* DOHCompass */ = {
+			isa = PBXGroup;
+			children = (
+				EF85C87D1F2990FA00561413 /* AppDelegate.h */,
+				EF85C87E1F2990FA00561413 /* AppDelegate.m */,
+				EF85C8801F2990FA00561413 /* ViewController.h */,
+				EF85C8811F2990FA00561413 /* ViewController.m */,
+				EF85C8831F2990FA00561413 /* Main.storyboard */,
+				EF85C8861F2990FA00561413 /* Assets.xcassets */,
+				EF85C8881F2990FA00561413 /* LaunchScreen.storyboard */,
+				EF85C88B1F2990FA00561413 /* Info.plist */,
+				EF85C87A1F2990FA00561413 /* Supporting Files */,
+			);
+			path = DOHCompass;
+			sourceTree = "<group>";
+		};
+		EF85C87A1F2990FA00561413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF85C87B1F2990FA00561413 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF85C8931F2990FA00561413 /* DOHCompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF85C8941F2990FA00561413 /* DOHCompassTests.m */,
+				EF85C8961F2990FA00561413 /* Info.plist */,
+			);
+			path = DOHCompassTests;
+			sourceTree = "<group>";
+		};
+		EF85C89E1F2990FA00561413 /* DOHCompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF85C89F1F2990FA00561413 /* DOHCompassUITests.m */,
+				EF85C8A11F2990FA00561413 /* Info.plist */,
+			);
+			path = DOHCompassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF85C8761F2990FA00561413 /* DOHCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85C8A41F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompass" */;
+			buildPhases = (
+				EF85C8731F2990FA00561413 /* Sources */,
+				EF85C8741F2990FA00561413 /* Frameworks */,
+				EF85C8751F2990FA00561413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DOHCompass;
+			productName = DOHCompass;
+			productReference = EF85C8771F2990FA00561413 /* DOHCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF85C88F1F2990FA00561413 /* DOHCompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85C8A71F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompassTests" */;
+			buildPhases = (
+				EF85C88C1F2990FA00561413 /* Sources */,
+				EF85C88D1F2990FA00561413 /* Frameworks */,
+				EF85C88E1F2990FA00561413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF85C8921F2990FA00561413 /* PBXTargetDependency */,
+			);
+			name = DOHCompassTests;
+			productName = DOHCompassTests;
+			productReference = EF85C8901F2990FA00561413 /* DOHCompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF85C89A1F2990FA00561413 /* DOHCompassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85C8AA1F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompassUITests" */;
+			buildPhases = (
+				EF85C8971F2990FA00561413 /* Sources */,
+				EF85C8981F2990FA00561413 /* Frameworks */,
+				EF85C8991F2990FA00561413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF85C89D1F2990FA00561413 /* PBXTargetDependency */,
+			);
+			name = DOHCompassUITests;
+			productName = DOHCompassUITests;
+			productReference = EF85C89B1F2990FA00561413 /* DOHCompassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF85C86F1F2990FA00561413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dolion.Hou;
+				TargetAttributes = {
+					EF85C8761F2990FA00561413 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EF85C88F1F2990FA00561413 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF85C8761F2990FA00561413;
+					};
+					EF85C89A1F2990FA00561413 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF85C8761F2990FA00561413;
+					};
+				};
+			};
+			buildConfigurationList = EF85C8721F2990FA00561413 /* Build configuration list for PBXProject "DOHCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF85C86E1F2990FA00561413;
+			productRefGroup = EF85C8781F2990FA00561413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF85C8761F2990FA00561413 /* DOHCompass */,
+				EF85C88F1F2990FA00561413 /* DOHCompassTests */,
+				EF85C89A1F2990FA00561413 /* DOHCompassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF85C8751F2990FA00561413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85C88A1F2990FA00561413 /* LaunchScreen.storyboard in Resources */,
+				EF85C8871F2990FA00561413 /* Assets.xcassets in Resources */,
+				EF85C8851F2990FA00561413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C88E1F2990FA00561413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C8991F2990FA00561413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF85C8731F2990FA00561413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85C8821F2990FA00561413 /* ViewController.m in Sources */,
+				EF85C87F1F2990FA00561413 /* AppDelegate.m in Sources */,
+				EF85C87C1F2990FA00561413 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C88C1F2990FA00561413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85C8951F2990FA00561413 /* DOHCompassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF85C8971F2990FA00561413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85C8A01F2990FA00561413 /* DOHCompassUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF85C8921F2990FA00561413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF85C8761F2990FA00561413 /* DOHCompass */;
+			targetProxy = EF85C8911F2990FA00561413 /* PBXContainerItemProxy */;
+		};
+		EF85C89D1F2990FA00561413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF85C8761F2990FA00561413 /* DOHCompass */;
+			targetProxy = EF85C89C1F2990FA00561413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF85C8831F2990FA00561413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF85C8841F2990FA00561413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF85C8881F2990FA00561413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF85C8891F2990FA00561413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF85C8A21F2990FA00561413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF85C8A31F2990FA00561413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF85C8A51F2990FA00561413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DOHCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF85C8A61F2990FA00561413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DOHCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF85C8A81F2990FA00561413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DOHCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOHCompass.app/DOHCompass";
+			};
+			name = Debug;
+		};
+		EF85C8A91F2990FA00561413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DOHCompassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DOHCompass.app/DOHCompass";
+			};
+			name = Release;
+		};
+		EF85C8AB1F2990FA00561413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DOHCompassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DOHCompass;
+			};
+			name = Debug;
+		};
+		EF85C8AC1F2990FA00561413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DOHCompassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dolion.Hou.DOHCompassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DOHCompass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF85C8721F2990FA00561413 /* Build configuration list for PBXProject "DOHCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85C8A21F2990FA00561413 /* Debug */,
+				EF85C8A31F2990FA00561413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85C8A41F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85C8A51F2990FA00561413 /* Debug */,
+				EF85C8A61F2990FA00561413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF85C8A71F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85C8A81F2990FA00561413 /* Debug */,
+				EF85C8A91F2990FA00561413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF85C8AA1F2990FA00561413 /* Build configuration list for PBXNativeTarget "DOHCompassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85C8AB1F2990FA00561413 /* Debug */,
+				EF85C8AC1F2990FA00561413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF85C86F1F2990FA00561413 /* Project object */;
+}
