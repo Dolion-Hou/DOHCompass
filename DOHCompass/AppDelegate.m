@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  DOHCompass
 //
-//  Created by 彩虹蜗牛 on 2017/7/27.
+//  Created by Dolion.Hou on 2017/7/27.
 //  Copyright © 2017年 Dolion.Hou. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface AppDelegate ()
 
@@ -40,6 +41,10 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    if(![CLLocationManager locationServicesEnabled]){
+        NSLog(@"定位服务当前可能尚未打开，请设置打开！");
+        return;
+    }
 }
 
 
